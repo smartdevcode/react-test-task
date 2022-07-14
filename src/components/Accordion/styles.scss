@@ -1,0 +1,26 @@
+.Accordion {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  .titleContainer {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h4:hover {
+      cursor: pointer;
+      color: rgba(100, 100, 100);
+    }
+  }
+
+  .childrenContainer {
+    .child {
+      padding: 0.5rem;
+      padding-left: 1.25rem;
+    }
+  }
+}
